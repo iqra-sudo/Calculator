@@ -4,7 +4,7 @@ int main()
 {
    int a,b,c;
   cout<<"Enter three numbers: ";
-  cin>>a>>b>>c;  //taking 3 numbers from user
+  cin>>a>>b>>c;  
   if(a>b&&a>c)
   {
     cout<<a;
@@ -16,6 +16,5 @@ int main()
   else
   {
     cout<<c;
-    /*If a nd b is smaller then c is greater*/ 
   }
 }
